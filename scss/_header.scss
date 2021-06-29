@@ -33,6 +33,12 @@ header {
     }
 }
 
+
+.itemDesplegable{
+    font-family:$fuenteNav;
+    color: $colorTitulo;
+}
+
 /*Media Queries header*/
 
 @media only screen and (max-width: 345px) {

@@ -42,6 +42,11 @@ header nav .listaNav .itemLista a:hover {
   transition: 400ms linear;
 }
 
+.itemDesplegable {
+  font-family: Candara, Arial, sans-serif;
+  color: #dd937f;
+}
+
 /*Media Queries header*/
 @media only screen and (max-width: 345px) {
   header {
@@ -322,6 +327,12 @@ footer .rrss a {
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
+@media only screen and (min-width: 1400px) {
+  .locales {
+    height: 100vh;
+  }
+}
+
 .informacion {
   padding: 1.5rem;
   margin: 0 auto;
@@ -370,5 +381,11 @@ footer .rrss a {
 .formulario fieldset div .botones input {
   background-color: #e7b2a3;
   color: white;
+}
+
+@media only screen and (min-width: 1400px) {
+  .contenedorContacto {
+    height: 100vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
