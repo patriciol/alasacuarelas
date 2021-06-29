@@ -1,0 +1,104 @@
+.seccionCarrusel {
+    padding: 1.5rem;
+    margin: 0 auto;
+    width: 40%;
+    min-width: 365px;
+}
+
+.estiloCarrusel {
+    border-radius: 5%;
+    height: 400px;
+}
+
+.indexPresentacion {
+    padding: 1.5rem 0;
+    h3 {
+        width: 60%;
+        color: $colorTitulo;
+        font-family: $fuenteTitulo;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 1rem;
+        font-size: 1.5rem;
+    }
+    div {
+        .productoIndex {
+            width: 100%;
+            text-align: center;
+            padding: 0 2rem;
+
+            img {
+                width: 100%;
+                min-width: 210px;
+                max-width: 320px;
+                border-radius: 5%;
+                height: 70%;
+
+                box-shadow: 10px 5px 5px black;
+                display: block;
+                margin: 0 auto;
+            }
+            h5 {
+                text-align: center;
+                font-family: $fuenteTitulo;
+                color: $colorTitulo;
+                font-size: 130%;
+                padding-top: 1.5rem;
+            }
+        }
+    }
+}
+
+.infoCompra {
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+    background-color: grey;
+    div {
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding: 1.5rem;
+
+        p {
+            width: 60%;
+            margin: 0 auto;
+        }
+    }
+}
+
+.seccionCarrusel {
+    padding: 1.5rem;
+    margin: 0 auto;
+    width: 40%;
+    min-width: 365px;
+}
+
+.estiloCarrusel {
+    border-radius: 5%;
+    height: 400px;
+}
+
+
+/*Medias Queries Index*/
+
+@media only screen and (max-width: 270px) {
+    .seccionCarrusel {
+        min-width: 240px;
+        padding: 1rem 0;
+    }
+
+    .estiloCarrusel {
+        height: 250px;
+    }
+}
+
+@media only screen and(min-width:271px) and (max-width: 370px) {
+    .seccionCarrusel {
+        min-width: 270px;
+        padding: 1rem 0;
+    }
+
+    .estiloCarrusel {
+        height: 300px;
+    }
+}

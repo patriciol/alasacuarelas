@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alas Acuarelas - Inicio</title>
+    <link rel="shortcut icon" href="./multimedia/cuadro.jpeg"/>
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Estilo CSS Propio-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/ca82ccea97.js" crossorigin="anonymous"></script>
+
+    <!--Font GoogleFont-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <header class="d-flex flex-md-row flex-row-reverse justify-content-between align-items-center">
+
+        <h1 class="marca"><a href="./index.html">Alas Acuarelas</a></h1>
+
+        <nav class="d-none d-md-flex">
+
+            <ul class="listaNav d-flex flex-row">
+                <li class="itemLista">
+                    <a href="./index.html">INICIO</a>
+                </li>
+                <li class="itemLista">
+                    <a href="./secciones/nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="itemLista">
+                    <a href="./secciones/tienda.html">TIENDA</a>
+                </li>
+                <li class="itemLista">
+                    <a href="./secciones/locales.html">LOCALES</a>
+                </li>
+                <li class="itemLista">
+                    <a href="./secciones/contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="dropdown d-flex d-md-none">
+            <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                &#9776;
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="./index.html">INICIO</a></li>
+                <li><a class="dropdown-item" href="./secciones/nosotros.html">NOSOTROS</a></li>
+                <li><a class="dropdown-item" href="./secciones/tienda.html">TIENDA</a></li>
+                <li><a class="dropdown-item" href="./secciones/locales.html">LOCALES</a></li>
+                <li><a class="dropdown-item" href="./secciones/contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <section class="seccionCarrusel">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./multimedia/carrusel1.jpeg" class="estiloCarrusel d-block w-100" alt="acuarela1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./multimedia/carrusel2.jpeg" class="estiloCarrusel d-block w-100" alt="acuarela2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./multimedia/carrusel3.jpeg" class="estiloCarrusel d-block w-100" alt="acuarela3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+        <section class="indexPresentacion">
+
+            <h3>En nuestra tienda podés encontrar:</h3>
+
+            <div class="d-flex flex-md-row flex-column justify-content-center">
+
+                <div class="productoIndex">
+                    <h5>Señaladores</h5>
+                    <img src="./multimedia/senalador.jpeg" alt="senalador">
+                </div>
+
+                <div class="productoIndex">
+                    <h5>Cuadros</h5>
+                    <img src="./multimedia/cuadro.jpeg" alt="cuadro">
+                </div>
+
+                <div class="productoIndex">
+                    <h5>Agendas</h5>
+                    <img src="./multimedia/agenda.jpeg" alt="agenda">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="infoCompra d-flex flex-md-row flex-column justify-content-around">
+
+            <div>
+                <i class="fas fa-truck fa-lg"></i>
+                <h3>Envíos a todo el país</h3>
+                <p>A través de Correo Argentino</p>
+            </div>
+
+            <div class="bordes">
+                <i class="far fa-credit-card fa-lg"></i>
+                <h3>Hasta 12 cuotas</h3>
+                <p>A través de Mercado Pago</p>
+            </div>
+
+            <div>
+                <i class="fas fa-lock fa-lg"></i>
+                <h3>Compra segura</h3>
+                <p>Protegemos tus datos</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center">
+
+        <div>
+            <ul>
+                <li>Alas Acuarelas
+                    <ul>
+                        <li class="listaLocales">Local Pipe I - Thames 747 </li>
+                        <li class="listaLocales">Local Pipe II - Cabildo y Juramento</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="rrss">
+            <p class="item">Seguinos en</p>
+            <a href="https://www.instagram.com/alasacuarelas/" target="_blank"><i
+                    class="fab fa-instagram fa-2x color"></i></a>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

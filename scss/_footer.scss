@@ -1,0 +1,22 @@
+footer {
+    background-color: rgb(55, 55, 65);
+    padding: 2%;
+    color: rgb(253, 240, 231);
+
+    .rrss {
+        text-align: center;
+        a{
+            color: rgb(253, 240, 231);
+        }
+    }
+}
+
+.listaLocales{
+    list-style: square inside;
+}
+
+@media only screen and (max-width: 768px) {
+ .rrss{
+     padding-top:5%;
+ }
+}

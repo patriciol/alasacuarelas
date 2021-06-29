@@ -1,0 +1,48 @@
+header {
+    padding: 1rem 2.5rem;
+    background-color: $headerBC;
+
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+
+    .marca {
+        a {
+            color: $colorLogo;
+            font-family: $letraLogo;
+        }
+    }
+
+    nav {
+        .listaNav {
+            .itemLista {
+                padding-inline: 0.5rem;
+
+                a {
+                    text-decoration: none;
+                    color: $colorNav;
+                    font-family: $fuenteNav;
+
+                    &:hover {
+                        background-color: rgba(250, 33, 33, 0.13);
+                        transition: 400ms linear;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Media Queries header*/
+
+@media only screen and (max-width: 345px) {
+    header {
+        padding: 1rem 1rem;
+
+        .marca {
+            a {
+                font-size: 80%;
+            }
+        }
+    }
+}

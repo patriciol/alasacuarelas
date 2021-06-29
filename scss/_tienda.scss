@@ -1,0 +1,86 @@
+.contenedorCuadros {
+    padding: 2% 0;
+
+    .tituloTienda {
+        text-align: center;
+        padding: 1% 0;
+        background-color: $colorLogo;
+        font-weight: bold;
+
+        h2 {
+            color: $colorTitulo;
+            font-family: $fuenteNav;
+        }
+
+        h5 {
+            font-family: $fuenteTitulo;
+            color: $colorTitulo;
+        }
+    }
+
+    .seccionCuadros {
+
+        display: grid;
+        grid-gap: 1rem;
+      
+        margin: 3% 8%;
+        padding: 3% 0;
+
+        border: 5px rgb(250, 219, 198);
+        border-style: solid;
+
+        .cuadro {
+
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+       
+
+            .imgCuadro {
+                border-radius: 10%;
+                width: 80%;
+                height: 70%;
+            }
+
+            .boton {
+                font-size: 60%;
+                color: white;
+                padding: 1.5%;
+                background-color: $headerBC;
+                border-color: $headerBC;
+            }
+
+            .nombreCuadro {
+                margin: 0%;
+                font-family: $fuenteTitulo;
+                color: $colorTitulo;
+                padding: 1% 0;
+                text-align: center;
+            }
+        }
+    }
+}
+
+/*Media Queries de la grilla de cuadros*/
+
+@media only screen and (min-width: 230px) and (max-width: 438px) {
+    .seccionCuadros {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+@media only screen and (min-width: 439px) and (max-width: 768px) {
+    .seccionCuadros {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .seccionCuadros {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,50 @@
+.informacion {
+    padding: 1.5rem;
+    margin: 0 auto;
+    width: 400px;
+    font-family: $fuenteTitulo;
+    color: $colorTitulo;
+
+    h5{
+        font-size: 100%;
+    }
+
+    ul{
+        font-size: 80%;
+    }
+}
+
+.formulario {
+    padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+
+    fieldset {
+        background-color: $colorNav;
+        padding: 1.5rem;
+        font-family: $fuenteTitulo;
+        color: $colorTitulo;
+        div {
+            label {
+                padding-top: 1rem;
+                border:none;
+            }
+            .sinBorde{
+                border:none;
+            }
+
+            .botones {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-top:1rem;
+
+                input {
+                    background-color: $headerBC;
+                    color: white;
+
+                }
+            }
+        }
+    }
+}

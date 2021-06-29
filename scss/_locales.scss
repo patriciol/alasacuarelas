@@ -1,0 +1,33 @@
+.locales {
+
+
+    .contenedorLocal {
+        background-color: $colorLogo;
+        padding: 1.5rem;
+        border-radius: 10%;
+        max-width: 600px;
+        margin: 3rem 0;
+
+        iframe{
+            padding-top: 1.5rem;
+        }
+    
+    }
+
+    .nombreLocal {
+        color: $colorTitulo;
+        font-family: $fuenteTitulo;
+
+        padding-bottom: 1rem;
+
+        span {
+            font-family: $letraLogo;
+            font-size: 130%;
+        }
+    }
+}
+
+.listaLocal{
+    color: grey;
+    font-family: $fuenteTitulo;
+}
