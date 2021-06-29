@@ -1,6 +1,5 @@
 .locales {
 
-
     .contenedorLocal {
         background-color: $colorLogo;
         padding: 1.5rem;
@@ -32,7 +31,7 @@
     font-family: $fuenteTitulo;
 }
 
-
+/*Media querie de locales para hacer responsive a pantalla muy grandes*/
 @media only screen and (min-width: 1400px) {
     .locales{
         height: 100vh;

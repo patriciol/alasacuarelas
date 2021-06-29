@@ -19,10 +19,9 @@
     }
 
     .seccionCuadros {
-
         display: grid;
         grid-gap: 1rem;
-      
+
         margin: 3% 8%;
         padding: 3% 0;
 
@@ -30,13 +29,11 @@
         border-style: solid;
 
         .cuadro {
-
             height: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-       
 
             .imgCuadro {
                 border-radius: 10%;
@@ -63,7 +60,7 @@
     }
 }
 
-/*Media Queries de la grilla de cuadros*/
+/*Media Queries de la grilla de tienda*/
 
 @media only screen and (min-width: 230px) and (max-width: 438px) {
     .seccionCuadros {

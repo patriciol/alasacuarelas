@@ -277,7 +277,7 @@ footer .rrss a {
   text-align: center;
 }
 
-/*Media Queries de la grilla de cuadros*/
+/*Media Queries de la grilla de tienda*/
 @media only screen and (min-width: 230px) and (max-width: 438px) {
   .seccionCuadros {
     grid-template-columns: 1fr;
@@ -327,6 +327,7 @@ footer .rrss a {
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
+/*Media querie de locales para hacer responsive a pantalla muy grandes*/
 @media only screen and (min-width: 1400px) {
   .locales {
     height: 100vh;
